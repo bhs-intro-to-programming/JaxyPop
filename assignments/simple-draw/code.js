@@ -49,7 +49,7 @@ drawCircle(width/3.5, height/10, 20, 'green');
 
 drawFilledCircle(width - 30, height - 50, 50, 'green');
 
-drawLine(10000, 100000, width, height, 'red')
+drawLine(100, 1000, width, height, 'red')
 
 drawLine(0, 0, width, height, 'red')
 
