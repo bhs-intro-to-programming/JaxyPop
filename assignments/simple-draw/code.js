@@ -53,4 +53,4 @@ drawLine(100, 1, width, height, 'red')
 
 drawLine(-1, 100, width, height, 'red')
 
-drawLine(10, height/2**10,  width - 100, height/2**30, 'red')
+drawLine(10, height/2**1,  width - 100, height/2**3, 'red')
