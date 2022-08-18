@@ -51,6 +51,6 @@ drawFilledCircle(width - 30, height - 50, 50, 'green');
 
 drawLine(100, 1, width, height, 'red')
 
-drawLine(1, -100, width, height, 'red')
+drawLine(-1, 100, width, height, 'red')
 
 drawLine(0, 0, width, height, 'red')
