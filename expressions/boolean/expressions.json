@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep && keepingup",
+    "correct": false
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep && keepingUp",
+    "correct": true
+  },
+  {
+    "name": "Energetic?",
+    "answer": "enough",
+    "correct": false
+  },
+  {
+    "name": "Energetic?",
+    "answer": "enoughSleep && justWorkedOut",
+    "correct": false
+  },
+  {
+    "name": "Energetic?",
+    "answer": "enoughSleep &&! justWorkedOut",
+    "correct": true
+  }
+]
