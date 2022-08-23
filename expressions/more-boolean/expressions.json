@@ -33,5 +33,10 @@
     "name": "Can pay attention?",
     "answer": "! hungry && interested",
     "correct": true
+  },
+  {
+    "name": "Coming to bookclub?",
+    "answer": "member &&! outSick",
+    "correct": true
   }
 ]
