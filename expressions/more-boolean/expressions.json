@@ -23,5 +23,10 @@
     "name": "Wait for a sale?",
     "answer": "! storeOpen || ! isASale",
     "correct": true
+  },
+  {
+    "name": "Lighting a fire?",
+    "answer": "fireLit ||! haveMatches",
+    "correct": true
   }
 ]
