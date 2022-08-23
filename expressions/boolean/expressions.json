@@ -23,5 +23,10 @@
     "name": "Energetic?",
     "answer": "enoughSleep &&! justWorkedOut",
     "correct": true
+  },
+  {
+    "name": "Dragging?",
+    "answer": "!enoughSleep && lotsOfWork",
+    "correct": true
   }
 ]
