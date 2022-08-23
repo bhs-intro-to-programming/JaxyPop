@@ -43,5 +43,10 @@
     "name": "Ready for some football?",
     "answer": "fast && strong",
     "correct": true
+  },
+  {
+    "name": "In the room where it happens?",
+    "answer": "inTheClass || isProctor",
+    "correct": true
   }
 ]
