@@ -13,5 +13,10 @@
     "name": "Will we skip our trip to the store?",
     "answer": "! storeOpen || linesTooLong",
     "correct": true
+  },
+  {
+    "name": "Wait for a sale?",
+    "answer": "!storeOpen || isASale",
+    "correct": false
   }
 ]
