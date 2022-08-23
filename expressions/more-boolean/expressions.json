@@ -48,5 +48,10 @@
     "name": "In the room where it happens?",
     "answer": "inTheClass || isProctor",
     "correct": true
+  },
+  {
+    "name": "Can go into creepy crawly cave?",
+    "answer": "! afraidOfTheDark || afraidOfDpiders",
+    "correct": false
   }
 ]
