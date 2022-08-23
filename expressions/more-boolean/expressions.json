@@ -18,5 +18,10 @@
     "name": "Wait for a sale?",
     "answer": "!storeOpen || isASale",
     "correct": false
+  },
+  {
+    "name": "Wait for a sale?",
+    "answer": "! storeOpen || ! isASale",
+    "correct": true
   }
 ]
