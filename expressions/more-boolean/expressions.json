@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Will we skip our trip to the store?",
+    "answer": "!storeOpen",
+    "correct": false,
+    "timestamp": 1661465637969
+  }
+]
