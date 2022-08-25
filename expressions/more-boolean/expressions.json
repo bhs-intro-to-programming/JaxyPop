@@ -22,5 +22,11 @@
     "answer": "member &&!outsick",
     "correct": false,
     "timestamp": 1661465920340
+  },
+  {
+    "name": "Coming to bookclub?",
+    "answer": "member &&!outSick",
+    "correct": true,
+    "timestamp": 1661465929853
   }
 ]
