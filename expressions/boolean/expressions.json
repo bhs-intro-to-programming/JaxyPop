@@ -70,5 +70,11 @@
     "answer": "done || !fun",
     "correct": true,
     "timestamp": 1661551930151
+  },
+  {
+    "name": "Not feeling it?",
+    "answer": "!fun || tired",
+    "correct": true,
+    "timestamp": 1661551978288
   }
 ]
