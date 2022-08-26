@@ -28,5 +28,11 @@
     "name": "Dragging?",
     "answer": "!enoughSleep && lotsOfWork",
     "correct": true
+  },
+  {
+    "name": "Super beat?",
+    "answer": "enoughSleep && !eatenEnough",
+    "correct": false,
+    "timestamp": 1661550186995
   }
 ]
