@@ -34,5 +34,11 @@
     "answer": "2432",
     "correct": true,
     "timestamp": 1661550634769
+  },
+  {
+    "name": "Area of cicrle with radius 2",
+    "answer": "2**Math.PI",
+    "correct": false,
+    "timestamp": 1661550736499
   }
 ]
