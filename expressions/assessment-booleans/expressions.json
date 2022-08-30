@@ -138,5 +138,26 @@
     "answer": "afraidOfTheDark || !afraidOfSpiders",
     "correct": false,
     "timestamp": 1661898207375
+  },
+  {
+    "name": "Can go into creepy crawly cave?",
+    "canonical": "!afraidOfTheDark && !afraidOfSpiders",
+    "answer": "afraidOfTheDark || !afraidOfSpiders",
+    "correct": false,
+    "timestamp": 1661898207527
+  },
+  {
+    "name": "Can go into creepy crawly cave?",
+    "canonical": "!afraidOfTheDark && !afraidOfSpiders",
+    "answer": "afraidOfTheDark || !afraidOfSpiders",
+    "correct": false,
+    "timestamp": 1661898207655
+  },
+  {
+    "name": "Can go into creepy crawly cave?",
+    "canonical": "!afraidOfTheDark && !afraidOfSpiders",
+    "answer": "afraidOfTheDark || afraidOfSpiders",
+    "correct": false,
+    "timestamp": 1661898211567
   }
 ]
