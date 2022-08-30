@@ -68,5 +68,12 @@
     "answer": "Math.PI*2**2",
     "correct": true,
     "timestamp": 1661896518944
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a%b",
+    "correct": true,
+    "timestamp": 1661896964671
   }
 ]
