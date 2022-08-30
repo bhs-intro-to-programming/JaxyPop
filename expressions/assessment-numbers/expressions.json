@@ -47,5 +47,12 @@
     "answer": "2432",
     "correct": true,
     "timestamp": 1661896049205
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "(a+b)/2",
+    "correct": true,
+    "timestamp": 1661896300451
   }
 ]
