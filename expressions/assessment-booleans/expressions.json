@@ -180,5 +180,12 @@
     "answer": "!afraidOfTheDark && !afraidOfSpiders",
     "correct": true,
     "timestamp": 1661898224872
+  },
+  {
+    "name": "Coming to bookclub?",
+    "canonical": "member && !outSick",
+    "answer": "member || !outSick",
+    "correct": false,
+    "timestamp": 1661898297970
   }
 ]
