@@ -201,5 +201,12 @@
     "answer": "!fun || tired",
     "correct": true,
     "timestamp": 1661898318003
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "fireLit || !haveMatches",
+    "correct": true,
+    "timestamp": 1661898406541
   }
 ]
