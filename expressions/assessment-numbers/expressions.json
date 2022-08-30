@@ -26,5 +26,12 @@
     "answer": "24*60*60",
     "correct": true,
     "timestamp": 1661895949450
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "a/b",
+    "correct": false,
+    "timestamp": 1661895970180
   }
 ]
