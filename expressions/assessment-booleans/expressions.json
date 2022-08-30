@@ -131,5 +131,12 @@
     "answer": "afraidOfTheDark || !afraidOfSpiders",
     "correct": false,
     "timestamp": 1661898206967
+  },
+  {
+    "name": "Can go into creepy crawly cave?",
+    "canonical": "!afraidOfTheDark && !afraidOfSpiders",
+    "answer": "afraidOfTheDark || !afraidOfSpiders",
+    "correct": false,
+    "timestamp": 1661898207375
   }
 ]
