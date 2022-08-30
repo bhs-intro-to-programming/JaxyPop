@@ -54,5 +54,12 @@
     "answer": "(a+b)/2",
     "correct": true,
     "timestamp": 1661896300451
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a-b",
+    "correct": true,
+    "timestamp": 1661896310931
   }
 ]
