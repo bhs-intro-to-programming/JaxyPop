@@ -376,5 +376,12 @@
     "answer": "!enoughSleep && lotsOfWork",
     "correct": true,
     "timestamp": 1661984459435
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "!sleepy || dark",
+    "correct": false,
+    "timestamp": 1661984528092
   }
 ]
