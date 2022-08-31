@@ -178,5 +178,12 @@
     "answer": "(s.substring) (s.substring)",
     "correct": false,
     "timestamp": 1661552591236
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring (s.lenght-1)",
+    "correct": false,
+    "timestamp": 1661985129349
   }
 ]
