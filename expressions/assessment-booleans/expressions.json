@@ -362,5 +362,12 @@
     "answer": "!hungry && interested",
     "correct": true,
     "timestamp": 1661898636565
+  },
+  {
+    "name": "Ready for some football?",
+    "canonical": "fast && strong",
+    "answer": "fast && strong",
+    "correct": true,
+    "timestamp": 1661984285732
   }
 ]
