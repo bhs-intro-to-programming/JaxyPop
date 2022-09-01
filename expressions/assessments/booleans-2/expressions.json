@@ -89,5 +89,12 @@
     "answer": "inTheClass || isProctor",
     "correct": true,
     "timestamp": 1662070129286
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "fireLit || !haveMatches",
+    "correct": true,
+    "timestamp": 1662070451239
   }
 ]
