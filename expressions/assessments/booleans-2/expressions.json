@@ -117,5 +117,12 @@
     "answer": "hungry && !interested",
     "correct": false,
     "timestamp": 1662070617684
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "enoughSleep && keepingUp",
+    "correct": true,
+    "timestamp": 1662070651637
   }
 ]
