@@ -103,5 +103,12 @@
     "answer": "!storeOpen || !isASale",
     "correct": true,
     "timestamp": 1662070483928
+  },
+  {
+    "name": "Not feeling it?",
+    "canonical": "!fun || tired",
+    "answer": "!fun || tired",
+    "correct": true,
+    "timestamp": 1662070591836
   }
 ]
