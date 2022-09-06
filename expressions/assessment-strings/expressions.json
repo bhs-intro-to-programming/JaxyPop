@@ -33,5 +33,12 @@
     "answer": "\t'foo'",
     "correct": false,
     "timestamp": 1662501191160
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s.substrin",
+    "correct": false,
+    "timestamp": 1662501902511
   }
 ]
