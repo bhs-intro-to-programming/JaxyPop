@@ -26,5 +26,12 @@
     "answer": "'foo'",
     "correct": false,
     "timestamp": 1662501176896
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "\t'foo'",
+    "correct": false,
+    "timestamp": 1662501191160
   }
 ]
