@@ -19,5 +19,12 @@
     "answer": "s.substring(0,3)",
     "correct": true,
     "timestamp": 1662500982547
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "'foo'",
+    "correct": false,
+    "timestamp": 1662501176896
   }
 ]
