@@ -47,5 +47,12 @@
     "answer": "s.substring(0,1)",
     "correct": true,
     "timestamp": 1662501916702
+  },
+  {
+    "name": "Last character",
+    "canonical": "s[s.length - 1]",
+    "answer": "s.substring(1,0)",
+    "correct": false,
+    "timestamp": 1662502091059
   }
 ]
