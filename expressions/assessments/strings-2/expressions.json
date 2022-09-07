@@ -61,5 +61,12 @@
     "answer": "s.substring(1, s.length -1)",
     "correct": true,
     "timestamp": 1662587479280
+  },
+  {
+    "name": "Concatenate (smoosh) strings",
+    "canonical": "s1 + s2",
+    "answer": "s1+s2",
+    "correct": true,
+    "timestamp": 1662587516578
   }
 ]
