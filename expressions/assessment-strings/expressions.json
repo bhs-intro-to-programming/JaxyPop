@@ -75,5 +75,12 @@
     "answer": "\ts.substring(s.length-3)",
     "correct": true,
     "timestamp": 1662589408754
+  },
+  {
+    "name": "All but first",
+    "canonical": "s.substring(1)",
+    "answer": "s.substring(1)",
+    "correct": true,
+    "timestamp": 1662589491884
   }
 ]
