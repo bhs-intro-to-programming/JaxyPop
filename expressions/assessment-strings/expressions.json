@@ -40,5 +40,12 @@
     "answer": "\ts.substring(1, s.length -1)",
     "correct": true,
     "timestamp": 1662589119753
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.toLowerCase()",
+    "correct": true,
+    "timestamp": 1662589291864
   }
 ]
