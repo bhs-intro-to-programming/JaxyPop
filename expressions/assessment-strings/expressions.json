@@ -5,5 +5,12 @@
     "answer": "s.length",
     "correct": true,
     "timestamp": 1662588763079
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s.substring(0,1)",
+    "correct": true,
+    "timestamp": 1662588912011
   }
 ]
