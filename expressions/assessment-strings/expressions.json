@@ -12,5 +12,12 @@
     "answer": "s.substring(0,1)",
     "correct": true,
     "timestamp": 1662588912011
+  },
+  {
+    "name": "UPPER CASE",
+    "canonical": "s.toUpperCase()",
+    "answer": "s.toUpperCase()",
+    "correct": true,
+    "timestamp": 1662588934877
   }
 ]
