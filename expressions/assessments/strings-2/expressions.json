@@ -75,5 +75,12 @@
     "answer": "s.substring(0,3).toUpperCase()+s.substring(3,100).toLowerCase()",
     "correct": true,
     "timestamp": 1662587840571
+  },
+  {
+    "name": "First three",
+    "canonical": "s.substring(0,3)",
+    "answer": "s.substring(0,3)",
+    "correct": true,
+    "timestamp": 1662587910381
   }
 ]
