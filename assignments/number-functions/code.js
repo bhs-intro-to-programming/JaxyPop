@@ -18,6 +18,6 @@ const mod=(a,b) =>{
   return a%b
 }
 
-const avrageOfTwo=(a,b) => {
-  return (a+b)/
+const avrageOfTwo=(a,b) =>{
+  return /2(a+b)
 }
