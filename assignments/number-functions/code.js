@@ -25,3 +25,6 @@ const averageOfTwo = (a, b) => {
 const averageOfThree = (a, b,c) => {
   return (a + b+c) / 3
 }
+const distance= (a,b) =>{
+  return a/b
+}
