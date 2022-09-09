@@ -14,101 +14,10 @@
     "timestamp": 1662155942175
   },
   {
-    "name": "First character",
-    "canonical": "s[0]",
-    "answer": "s.substring(0,1)",
-    "correct": true,
-    "timestamp": 1662586914783
-  },
-  {
-    "name": "All but first",
-    "canonical": "s.substring(1)",
-    "answer": "s.substring(1)",
-    "correct": true,
-    "timestamp": 1662586952567
-  },
-  {
-    "name": "Last character",
-    "canonical": "s[s.length - 1]",
-    "answer": "s.substring(s.lenght-1)",
-    "correct": false,
-    "timestamp": 1662587039124
-  },
-  {
-    "name": "Last character",
-    "canonical": "s[s.length - 1]",
-    "answer": "s.substring(s.length-1)",
-    "correct": true,
-    "timestamp": 1662587098661
-  },
-  {
-    "name": "Last three",
-    "canonical": "s.substring(s.length - 3)",
-    "answer": "s.substring(s.length-3)",
-    "correct": true,
-    "timestamp": 1662587284083
-  },
-  {
-    "name": "All but first and last",
-    "canonical": "s.substring(1, s.length - 1)",
-    "answer": "s.substring(1, s.lenght -1)",
-    "correct": false,
-    "timestamp": 1662587424759
-  },
-  {
-    "name": "All but first and last",
-    "canonical": "s.substring(1, s.length - 1)",
-    "answer": "s.substring(1, s.length -1)",
-    "correct": true,
-    "timestamp": 1662587479280
-  },
-  {
     "name": "Concatenate (smoosh) strings",
     "canonical": "s1 + s2",
     "answer": "s1+s2",
     "correct": true,
-    "timestamp": 1662587516578
-  },
-  {
-    "name": "Capitalize first three",
-    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3).toLowerCase()",
-    "answer": "s.substring(0,3).toUpperCase()+s.substring(3,100).toLowerCase()",
-    "correct": true,
-    "timestamp": 1662587840571
-  },
-  {
-    "name": "First three",
-    "canonical": "s.substring(0,3)",
-    "answer": "s.substring(0,3)",
-    "correct": true,
-    "timestamp": 1662587910381
-  },
-  {
-    "name": "UPPER CASE",
-    "canonical": "s.toUpperCase()",
-    "answer": "s.toUpperCase()",
-    "correct": true,
-    "timestamp": 1662587941054
-  },
-  {
-    "name": "lower case",
-    "canonical": "s.toLowerCase()",
-    "answer": "s.toLowerCase()",
-    "correct": true,
-    "timestamp": 1662587953518
-  },
-  {
-    "name": "Length",
-    "canonical": "s.length",
-    "answer": "s.length()",
-    "correct": false,
-    "timestamp": 1662588185565
-  },
-  {
-    "name": "Length",
-    "canonical": "s.length",
-    "answer": "s.length",
-    "correct": true,
-    "timestamp": 1662588192645
+    "timestamp": 1662700108700
   }
 ]
