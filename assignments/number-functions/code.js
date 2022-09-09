@@ -19,5 +19,5 @@ const mod=(a,b) =>{
 }
 
 const avrageOfTwo=(a,b) =>{
-  return /2(a+b)
+  return (a+b)/2
 }
