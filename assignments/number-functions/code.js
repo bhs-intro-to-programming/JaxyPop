@@ -23,5 +23,5 @@ const averageOfTwo = (a, b) => {
 }
 
 const averageOfThree = (a, b) => {
-  return (a + b) / 3
+  return (a + b+c) / 3
 }
