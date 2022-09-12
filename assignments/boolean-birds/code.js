@@ -18,3 +18,4 @@
  */
 const isFlobbyBird=(red,spotted) => (red&&spotted)
 const isBloggyBird=(red,spotted) => (red&&!spotted)
+const isFlibbeBird=(red,spotted) => (!red&&!spotted)
