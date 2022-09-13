@@ -19,3 +19,4 @@
 const isFlobbyBird=(red,spotted) => (red&&spotted)
 const isBloggyBird=(red,spotted) => (red&&!spotted)
 const isFlibbleBird=(red,spotted) => (!red&&spotted)
+const isGlobbyBird=(red,spotted) => (!red&&!spotted)
