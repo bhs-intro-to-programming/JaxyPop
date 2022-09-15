@@ -26,5 +26,5 @@ const averageOfThree = (a, b,c) => {
   return (a + b+c) / 3
 }
 const distance= (a,b) =>{
-  return (a-b)/2
+  return Mayh.abs (a-b)
 }
