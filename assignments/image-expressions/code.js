@@ -54,17 +54,7 @@
 // starting with // like what you're reading right now. Or you can enclose code
 // in a /* and then */ like the instruction above.)
 
-drawLine(0, 0, width, height, 'red');
 
-drawCircle(width / 2, height / 2, 10, 'blue');
-
-drawRect(50, 50, 60, 40, 'black');
-
-drawFilledCircle(width - 50, height - 50, 50, 'red');
-
-drawFilledRect(5, height - 20, 45, 15, 'purple');
-
-drawTriangle(width * 0.25, 10, width * 0.75, 20, width * 0.5, 80, 'blue');
 
 // You can also put line breaks in if the line gets too long as shown
-drawFilledCircle(width / 3, height / 2, 10, 'blue');
+drawFilledCircle(width / 3, height / 20, 10, 'blue');
