@@ -60,3 +60,4 @@
 drawFilledCircle(width / 3, height / 2, 20, 'blue');
 drawFilledCircle(width / 6, height / 2, 20, 'blue');
 drawFilledCircle(width / 4, height / 2, 20, 'blue');
+drawFilledCircle(width / 7, height / 2, 20, 'blue');
