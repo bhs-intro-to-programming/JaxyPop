@@ -58,7 +58,8 @@
 
 // You can also put line breaks in if the line gets too long as shown
 drawFilledCircle(width / 3, height / 2, 10, 'blue');
-drawFilledCircle(width / 4.56, height / 2, 10, 'blue');
+drawFilledCircle(width / 4.56, height / 2, 20, 'blue');
 drawFilledCircle(width / 9, height / 2, 10, 'blue');
 drawFilledCircle(width / 3.4, height / 2, 10, 'blue');
 drawFilledCircle(width / 3.9, height / 2, 10, 'blue');
+drawFilledCircle(width / 3.1, height / 2, 10, 'blue');
