@@ -58,4 +58,6 @@
 
 // You can also put line breaks in if the line gets too long as shown
 
-const  double
+const drawLineCircle(r) => {drawFilledCircle
+  for(let i=0; i< 100; x++)
+}
