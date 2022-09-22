@@ -67,4 +67,4 @@ drawFilledRect(5, height - 20, 45, 15, 'purple');
 drawTriangle(width * 0.25, 10, width * 0.75, 20, width * 0.5, 80, 'blue');
 
 // You can also put line breaks in if the line gets too long as shown
-drawFilledCircle(width / 3, height / 2, 10, 'blue');
+drawFilledCircle(width / 4, height / 2, 10, 'blue');
