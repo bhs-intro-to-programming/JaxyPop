@@ -61,4 +61,4 @@ drawFilledCircle(width / 3, height / 2, 10, 'blue');
 drawFilledCircle(width / 4.5, height / 2, 10, 'blue');
 drawFilledCircle(width / 9, height / 2, 10, 'blue');
 drawFilledCircle(width / 3.4, height / 2, 10, 'blue');
-drawFilledCircle(width / 3.8, height / 2, 10, 'blue');
+drawFilledCircle(width / 3.9, height / 2, 10, 'blue');
