@@ -57,11 +57,5 @@
 
 
 // You can also put line breaks in if the line gets too long as shown
-drawFilledCircle(width / 3, height / 2, 20, 'blue');
-drawFilledCircle(width / 6, height / 2, 20, 'blue');
-drawFilledCircle(width / 4, height / 2, 20, 'blue');
-drawFilledCircle(width / 12, height / 2, 20, 'blue');
-drawFilledCircle(width / 3000, height / 2, 20, 'blue');
-drawFilledCircle(width - 3, height - 300, 20, 'blue');
-drawFilledCircle(width - 45, height - 300, 20, 'blue');
-drawFilledCircle(width - 87, height - 300, 20, 'blue');
+
+const  double
