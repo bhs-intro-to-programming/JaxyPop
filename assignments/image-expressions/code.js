@@ -63,3 +63,5 @@ const drawLineCircle(r) => {
     drawFilledCircle(r+i, height/2, r, green)
   }
 }
+
+drawFilledCircle 3
