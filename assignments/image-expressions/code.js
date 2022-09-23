@@ -60,9 +60,10 @@
 
 const drawLineCircle=(r) => {
   for(let i=0; i< width; i=i+2*r) {
+    drawFilledCircle(r+i, height/2, r, 'lconst drawLineCircle=(r) => {
+  for(let i=0; i< width; i=i+2*r) {
     drawFilledCircle(r+i, height/2, r, 'lime' )
   }
 }
 
-drawLineCircle(25)
-
+drawLineCircle(50)
