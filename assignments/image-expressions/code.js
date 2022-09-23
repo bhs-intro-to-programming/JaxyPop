@@ -64,4 +64,4 @@ const drawLineCircle=(r) => {
   }
 }
 
-drawLineCircle(100)
+drawLineCircle(3)
