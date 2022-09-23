@@ -73,4 +73,4 @@ const drawAltCircle =(r) => {
   }
 }
 
-drawAltCircle(10)
+drawAltCircle(1)
