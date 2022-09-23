@@ -60,17 +60,11 @@
 
 const drawLineCircle=(r) => {
   for(let i=0; i< width; i=i+2*r) {
-    drawFilledCircle(r+i, height/2, r, 'lime' )
+    drawFilledCircle(r+i+i, height/2, r, 'lime' )
   }
 }
 
 drawLineCircle(42)
 
-const drawFilledCircle=(r) => {
-  for(let i=0; i< width; i=i+2*r) {
-    drawFilledCircle(r+i, height/2, r, 'cyan' )
-  }
-}
 
-drawLineCircle(25)
 
