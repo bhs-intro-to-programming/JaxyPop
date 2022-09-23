@@ -69,8 +69,8 @@ drawLineCircle(10)
 
 const drawAltCircle =(r) => {
   for(let i=0; i< width; i=i+2*r) {
-    Circle(r-11, height/2, r, 'cyan' )
+    drawAltCircle(r-11, height/2, r, 'cyan' )
   }
 }
 
-Circle(10)
+drawAltCircle(10)
