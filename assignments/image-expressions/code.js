@@ -67,7 +67,7 @@ const drawLineCircle=(r) => {
 drawLineCircle(10)
 
 
-const drawLineCircle=(r) => {
+const Circle =(r) => {
   for(let i=0; i< width; i=i+2*r) {
     drawFilledCircle(r-i-i, height/2, r, 'lime' )
   }
