@@ -31,3 +31,7 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+const pigLatin = (b) => b.substring(b.search(/[aeiou]/)) + b.substring (0, b.search(/[aeiou]/)) +'ay';
+
+const advancedPigLatin = (b) => b.search(/[aeiou]/) === 0 ? b+'way' :pigLatin (b);
