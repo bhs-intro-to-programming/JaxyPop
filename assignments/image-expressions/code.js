@@ -66,5 +66,7 @@ const drawLineCircle=(r) => {
 
 drawLineCircle(10)
 
+system.out.println("bootybandit muahahahahahah")
+
 
 
