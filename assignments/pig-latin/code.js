@@ -33,7 +33,7 @@
 // operator works.
 
 
-const pigLatin=(s) => s.substring(0,s.search-2, (/[aeiou]/)) + s.substring(-2 ,s.search (/[aeiou]/))
+const pigLatin=(s) => s.substring(s.search (/[aeiou]/)) + s.substring(0,s.search (/[aeiou]/)) +'ay';
 
 
 
