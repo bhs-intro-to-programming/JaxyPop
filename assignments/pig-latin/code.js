@@ -37,7 +37,7 @@ const pigLatin=(s) => s.substring(s.search (/[aeiou]/)) + s.substring(0,s.search
 
 const advancedPigLatin = (s) => {
   const i = s.search (/[aeiou]/)
-  return i === 0 ? advancedPigLatin(s);
+  return i === 0 ? "zero" advancedPigLatin(s);
 
 
 }
