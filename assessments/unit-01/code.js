@@ -7,9 +7,17 @@ const emit = (a, b, product) => {
 // Write your code here ...
 
 const avrageWeight= (a,b) => {
-return x / y 
+return a / b
 }
 
 const hypotenuse = (a,b) => {
   return Math.sqrt (a**2 + b**2);
 }
+
+const maxRadius = (a,b) => {
+ if a + b
+}
+
+
+
+
