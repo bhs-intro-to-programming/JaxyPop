@@ -8,6 +8,9 @@ const emit = (a, b, product) => {
 let x=1000
 let y=20
 const avrageWeight= (a,b) => {
-return x + y 
+return x / y 
 }
 
+const hypotenuse = (a,b) => {
+  return Math.sqrt (a**2 + b**2);
+}
