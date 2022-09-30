@@ -5,7 +5,10 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
-
+let x=1000
+let y=20
 const avrageWeight= (a,b) => {
 return x + y 
 }
+
+const hypotenuse = (a,b) =>
