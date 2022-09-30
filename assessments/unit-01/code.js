@@ -6,12 +6,10 @@ const emit = (a, b, product) => {
 
 // Write your code here ...
 
-const avrageWeight=
-const hypotenuse = (a,b) => {
-  return Math.sqrt (a**2 + b**2);
+const avrageWeight= (a,b) => {
+return x / y 
 }
 
-const maxRadius = (a,b) => {
-
-
+const hypotenuse = (a,b) => {
+  return Math.sqrt (a**2 + b**2);
 }
