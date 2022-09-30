@@ -11,4 +11,3 @@ const avrageWeight= (a,b) => {
 return x + y 
 }
 
-const hypotenuse = (a,b) =>
