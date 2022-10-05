@@ -12,5 +12,12 @@
     "answer": "a-b",
     "correct": true,
     "timestamp": 1665008537103
+  },
+  {
+    "name": "Product",
+    "canonical": "a * b",
+    "answer": "a*b",
+    "correct": true,
+    "timestamp": 1665008541159
   }
 ]
