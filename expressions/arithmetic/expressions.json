@@ -117,5 +117,12 @@
     "answer": "count**total",
     "correct": false,
     "timestamp": 1665094808135
+  },
+  {
+    "name": "General average",
+    "canonical": "total / count",
+    "answer": "total/count",
+    "correct": true,
+    "timestamp": 1665094823503
   }
 ]
