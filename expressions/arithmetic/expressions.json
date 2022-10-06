@@ -61,5 +61,26 @@
     "answer": "count&&total",
     "correct": false,
     "timestamp": 1665094731415
+  },
+  {
+    "name": "General average",
+    "canonical": "total / count",
+    "answer": "count&&total",
+    "correct": false,
+    "timestamp": 1665094731573
+  },
+  {
+    "name": "General average",
+    "canonical": "total / count",
+    "answer": "count&&total",
+    "correct": false,
+    "timestamp": 1665094731741
+  },
+  {
+    "name": "General average",
+    "canonical": "total / count",
+    "answer": "count&&total",
+    "correct": false,
+    "timestamp": 1665094731900
   }
 ]
