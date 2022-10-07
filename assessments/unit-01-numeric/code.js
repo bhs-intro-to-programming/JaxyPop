@@ -12,12 +12,24 @@ const itemsLeftOver = (numberPeople, numberItmes) => numberPeople-numberItmes;
 
 const areaOfCircle = (r) => Math.PI(r)**2;
 
-const volumeOfCube = (lengthEdge) => lengthEdge;
+const volumeOfCube = (lengthEdge) => lengthEdge**3;
 
 const populationGrowth =(currentSize,growthRate) => (currentSize *(growthRate + 1));
 
 const earnedRunAverage = (earnedRuns, innings) => ((earnedRuns * innings)*9);
 
-const valueOfJewels = (numberDimaond, numberEmerald, diamondInGold, emeraldInGold) => (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
+const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
 
-const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a)  
+const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a);  
+
+const firstClassPostage = (weightInOunces) => {
+  return (weightInOunces) +60 + 24
+};
+
+const weightOnJupiter = (kiloOnEarth) => {
+  return 
+};
+
+const gravity = (massesTwoBodies*2, distanceObjects) =>{
+  return
+};
