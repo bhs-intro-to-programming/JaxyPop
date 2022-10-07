@@ -30,6 +30,6 @@ const weightOnJupiter = (kiloOnEarth) => {
   return 
 };
 
-const gravity = (massesTwoBodies*2, distanceObjects) =>{
+const gravity = (massesTwoBodies*2, distanceObjects) => { 
   return
 };
