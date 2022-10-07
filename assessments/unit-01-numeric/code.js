@@ -10,7 +10,7 @@ const G = 6.6743e-11;
 
 const itemsLeftOver = (numberPeople, numberItmes) => numberPeople-numberItmes;
 
-const areaOfCircle = (r) => Math.PI(r)**2
+const areaOfCircle = (r) => Math.PI(r)**2;
 
 const volumeOfCube = (lengthEdge) => lengthEdge;
 
@@ -18,4 +18,6 @@ const populationGrowth =(currentSize,growthRate) => (currentSize *(growthRate + 
 
 const earnedRunAverage = (earnedRuns, innings) => ((earnedRuns * innings)*9);
 
-const valueOfJewels = 
+const valueOfJewels = (numberDimaond, numberEmerald, diamondInGold, emeraldInGold) => (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
+
+const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a)  
