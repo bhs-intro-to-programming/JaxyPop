@@ -22,4 +22,26 @@ const willSeeTweet = (followTweeter,retweetedTweet,blockedTweeter) => {
   return followTweeter || retweetedTweet || !blockedTweeter
 }  
 
-const evenGreaterThanZero = 
+const evenGreaterThanZero = () => {
+  return
+}
+
+const isLeapYear = () => {
+  return
+}
+
+const firstAndLast = () =>{
+  return 
+}
+
+const swapFrontAndBack = () => {
+  return 
+}
+
+const simplePigLatin = () => {
+  return
+}
+
+const randomCharacter = () => {
+  return
+}
