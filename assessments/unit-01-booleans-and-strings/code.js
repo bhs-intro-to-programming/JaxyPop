@@ -45,3 +45,22 @@ const simplePigLatin = () => {
 const randomCharacter = () => {
   return
 }
+
+const randomCharacterUpDown = () => {
+  return
+}
+
+const isAllUpperCase = () => {
+  return
+}
+
+const sameIgnoringCase = () => {
+  return
+}
+
+
+
+
+
+
+
