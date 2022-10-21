@@ -16,5 +16,6 @@
   "Nothing, it’s a syntax error.",
   "xs[2][1]",
   "300",
-  "true"
+  "true",
+  "The sum of the numbers from 0 to numbers.length."
 ]
