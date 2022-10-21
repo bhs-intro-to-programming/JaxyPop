@@ -13,7 +13,7 @@
   "10",
   "xs[xs.length - 1]",
   "6",
-  "Nothing, it’s a syntax error.",
+  "undefined",
   "xs[2][1]",
   "300"
 ]
