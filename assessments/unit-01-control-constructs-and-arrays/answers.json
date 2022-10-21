@@ -12,7 +12,7 @@
   "It tests whether there are more than limit prime numbers below max.",
   "10",
   "xs[xs.length - 1]",
-  null,
+  "6",
   null,
   "xs[2][1]",
   "300"
