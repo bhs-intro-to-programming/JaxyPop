@@ -15,5 +15,6 @@
   "6",
   "Nothing, it’s a syntax error.",
   "xs[2][1]",
-  "300"
+  "300",
+  "true"
 ]
