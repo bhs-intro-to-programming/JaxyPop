@@ -13,7 +13,7 @@
   "10",
   "xs[xs.length - 1]",
   "6",
-  null,
+  "Nothing, it’s a syntax error.",
   "xs[2][1]",
   "300"
 ]
