@@ -9,4 +9,6 @@ registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
 
-const drawCricle = (length.1)
+const drawTicTacToe={
+  ['x','x','o']
+}
