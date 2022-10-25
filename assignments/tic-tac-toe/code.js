@@ -8,3 +8,5 @@
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
+
+const drawCricle 
