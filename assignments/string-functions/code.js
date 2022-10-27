@@ -3,5 +3,5 @@ const findFnord = (s) => {
 }
 
 const firstAndLast = (s) => {
-  return s.substring+(s.length-1)
+  return s.substring(0)+(s.length-1)
 }
