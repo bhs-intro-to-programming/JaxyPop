@@ -2,6 +2,6 @@ const findFnord = (s) => {
   return s.indexOf('fnord')
 }
 
-const firstAndLast = (sub) => {
+const firstAndLast = (s) => {
   return s.substring+(s.length-1)
 }
