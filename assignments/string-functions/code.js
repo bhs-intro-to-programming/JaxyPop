@@ -5,3 +5,7 @@ const findFnord = (s) => {
 const firstAndLast = (s) => {
   return s.substring(0,1)+s.substring(s.length-1)
 }
+
+const swapFrontAndBack = (s) => {
+  return s.substring(0)+s.substring(s.length -3)
+}
