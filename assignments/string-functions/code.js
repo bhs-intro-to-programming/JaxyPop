@@ -2,6 +2,6 @@ const findFnord = (s) => {
   return s.indexOf('fnord')
 }
 
-const stringContains = (a,b) = {
+const stringContains = () = {
   return 
 }
