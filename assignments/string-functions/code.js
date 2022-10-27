@@ -7,5 +7,5 @@ const firstAndLast = (s) => {
 }
 
 const swapFrontAndBack = (s) => {
-  return s.substring(1)+s.substring(s.length -3)
+  return s.substring(1)+s.substring(s.length -2)
 }
