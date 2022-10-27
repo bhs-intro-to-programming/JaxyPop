@@ -3,5 +3,5 @@ const findFnord = (s) => {
 }
 
 const stringContains = (a,b) = {
-  return s.indexOf (2)
+  return s.indexOf (a+b)
 }
