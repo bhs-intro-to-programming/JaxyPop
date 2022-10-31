@@ -12,10 +12,14 @@ const rand = (n) => Math.floor(Math.random() * n);
 // correct even if contains small mistakes.
 
 
-const firstHalf = s => {
-  return s.substring(1,0)+s.substring(s.length,1)
+const firstHalf = (s) => {
+  return s.substring(1,0)+s.substring(s.length/2)
 }
 
-const secondHalf = s => {
-  return 
+const secondHalf = (s) => {
+  return s.substring(s.length/2)
+}
+
+const upDown = (s) => {
+  return s.substring(toUpperCase)+s.substring(s.length*2)
 }
