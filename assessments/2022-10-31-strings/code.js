@@ -23,3 +23,7 @@ const secondHalf = (s) => {
 const upDown = (s) => {
   return s.substring(toUpperCase)+s.substring(s.length*2)
 }
+
+const firstFewEveryOther = (s) =>{
+  retun s.(0)+s.(2)+s.(4)
+}
