@@ -21,7 +21,7 @@ const secondHalf = (s) => {
 }
 
 const upDown = (s) => {
-  return s.substring(toUpperCase)+s.substring(s.length*2)
+  return s.substring(toUpperCase(0,2))+s.substring(s.length*2)
 }
 
 const firstFewEveryOther = (s) =>{
