@@ -25,5 +25,5 @@ const upDown = (s) => {
 }
 
 const firstFewEveryOther = (s) =>{
-  retun s.(0)+s.(2)+s.(4)
+  return s.(0)+s.(2)+s.(4)
 }
