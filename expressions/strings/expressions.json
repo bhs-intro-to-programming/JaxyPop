@@ -124,5 +124,12 @@
     "answer": "s.substring(0,3)",
     "correct": true,
     "timestamp": 1667428039031
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1,s.length-1)",
+    "correct": true,
+    "timestamp": 1667428360270
   }
 ]
