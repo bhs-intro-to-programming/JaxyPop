@@ -61,5 +61,12 @@
     "answer": "'foo\\\\nbar'.length",
     "correct": true,
     "timestamp": 1667427749190
+  },
+  {
+    "name": "More indexing",
+    "canonical": "'o'",
+    "answer": "'o'",
+    "correct": true,
+    "timestamp": 1667427783079
   }
 ]
