@@ -54,5 +54,12 @@
     "answer": "'foo\\nbar'.length",
     "correct": true,
     "timestamp": 1667427740366
+  },
+  {
+    "name": "And one more",
+    "canonical": "8",
+    "answer": "'foo\\\\nbar'.length",
+    "correct": true,
+    "timestamp": 1667427749190
   }
 ]
