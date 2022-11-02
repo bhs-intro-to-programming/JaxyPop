@@ -26,5 +26,26 @@
     "answer": "foo.length(1)",
     "correct": false,
     "timestamp": 1667426981693
+  },
+  {
+    "name": "Length",
+    "canonical": "3",
+    "answer": "foo.length(1)",
+    "correct": false,
+    "timestamp": 1667426981861
+  },
+  {
+    "name": "Length",
+    "canonical": "3",
+    "answer": "foo.length(1)",
+    "correct": false,
+    "timestamp": 1667426982013
+  },
+  {
+    "name": "Length",
+    "canonical": "3",
+    "answer": "3",
+    "correct": true,
+    "timestamp": 1667427704310
   }
 ]
