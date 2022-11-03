@@ -138,5 +138,12 @@
     "answer": "s.substring(3)",
     "correct": false,
     "timestamp": 1667512450150
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(3,100)",
+    "correct": false,
+    "timestamp": 1667512465757
   }
 ]
