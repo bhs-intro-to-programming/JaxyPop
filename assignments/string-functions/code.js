@@ -13,3 +13,7 @@ const swapFrontAndBack = (s) => {
 const stringContains = (a,b) => {
   return
 }
+
+const isAllUpperCase = (s) => {
+  return s.substring(0,1).toUpperCase()
+}
