@@ -15,5 +15,5 @@ const stringContains = (a,b) => {
 }
 
 const isAllUpperCase = (s) => {
-  return s.substring(0).toUpperCase()
+  return s.substring(0).toUpperCase()===s
 }
