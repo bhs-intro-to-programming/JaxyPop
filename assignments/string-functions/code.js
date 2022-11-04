@@ -10,4 +10,6 @@ const swapFrontAndBack = (s) => {
   return s.substring(s.length /2) + s.substring (0, s.length/2)
 }
 
-const
+const stringContains = (a,b) => {
+  return
+}
