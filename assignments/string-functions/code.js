@@ -39,5 +39,5 @@ const allButFirst = (s) => {
 }
 
 const lastCharacter = (s) => {
-  return s.substring(0,-1)
+  return s.substring(-1)
 }
