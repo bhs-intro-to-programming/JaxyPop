@@ -17,3 +17,7 @@ const stringContains = (a,b) => {
 const isAllUpperCase = (s) => {
   return s.toUpperCase()===s
 }
+
+const capitalize = (s) => {
+  return 
+}
