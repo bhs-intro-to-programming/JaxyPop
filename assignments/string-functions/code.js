@@ -37,3 +37,7 @@ const firstThree = (s) => {
 const allButFirst = (s) => {
   return s.substring(1)
 }
+
+const lastCharacter = (s) => {
+  return s.substring(-1)
+}
