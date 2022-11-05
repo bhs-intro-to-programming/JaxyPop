@@ -19,5 +19,5 @@ const isAllUpperCase = (s) => {
 }
 
 const capitalize = (s) => {
-  return 
+  return s.substring(0).toUpperCase(s.length,1)
 }
