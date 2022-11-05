@@ -25,3 +25,7 @@ const capitalize = (s) => {
 const capitalizeFirstThree = (s) => {
   return s.substring(0,3).toUpperCase()+s.substring(3,s.length).toLowerCase()
 }
+
+const allButFirstAndList = (s) => {
+  return s.substring(s.length-1,0)
+}
