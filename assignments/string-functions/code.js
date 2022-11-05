@@ -47,5 +47,5 @@ const firstCharacter = (s) => {
 }
 
 const lastThree = (s) =>{
-  return s.substring(3)
+  return s.substring(2)
 }
