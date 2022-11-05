@@ -23,5 +23,5 @@ const capitalize = (s) => {
 }
 
 const capitalizeFirstThree = (s) => {
-  return s.substring(0,3).toUpperCase()+s.substring(1,s.length).toLowerCase()
+  return s.substring(0,3).toUpperCase()+s.substring(3,s.length).toLowerCase()
 }
