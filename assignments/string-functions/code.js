@@ -31,5 +31,5 @@ const allButFirstAndList = (s) => {
 }
 
 const firstThree = (s) => {
-  return s.substring(0,s.length 3)
+  return s.substring((0,3)s.length)
 }
