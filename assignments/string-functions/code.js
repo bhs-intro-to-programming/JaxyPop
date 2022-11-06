@@ -50,4 +50,6 @@ const lastThree = (s) =>{
   return 	s.substring(s.length-3)
 }
 
-
+const simplePigLatin = (s) => {
+  return s.substring(s.search(/[aeiou]/))+s.substring(0,s.search-1)+'ay'
+}
