@@ -65,3 +65,29 @@ const everyOther = (s) => {
 const upDownLastCharacter = (s) => {
   return upDown(s[s.length - 1]);    
 }; 
+
+const yesIfEven = (n) => {
+  if (n % 2 === 0) {
+    return 'yes';
+  } else {
+    return 'no';
+  }
+};
+
+const countXs = (s) => {
+  let count = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'x') {
+      count++;
+    }
+  }
+  return count;
+};
+
+const timesTable = (n) => {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+      emit(i, j, i * j);
+    }
+  }
+};
