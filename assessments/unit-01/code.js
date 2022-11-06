@@ -63,7 +63,7 @@ const everyOther = (s) => {
 };
 
 const upDownLastCharacter = (s) => {
-  return upDown(s[s.length - 1]);
+  return upDown(s[s.length - 1]); 
 };
 s
 s d 
