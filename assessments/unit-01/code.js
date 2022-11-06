@@ -66,6 +66,6 @@ const upDownLastCharacter = (s) => {
   return upDown(s[s.length - 1]);
 };
 
-
+s
 
 
