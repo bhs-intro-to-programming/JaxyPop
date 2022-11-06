@@ -49,3 +49,6 @@ const firstCharacter = (s) => {
 const lastThree = (s) =>{
   return 	s.substring(s.length-3)
 }
+
+
+const 
