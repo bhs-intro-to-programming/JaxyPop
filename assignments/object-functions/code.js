@@ -7,5 +7,5 @@ const point = (x,y) => {
 }
 
 const emptyObject = () => {
-  return 
+  return {}
 }
