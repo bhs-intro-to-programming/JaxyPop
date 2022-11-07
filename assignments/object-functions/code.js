@@ -1,4 +1,4 @@
-const getX = (object) => {
-  return  object = { 'x': 10 }
+const getX = (x) => {
+  return   x='x': 10 }
 
 }
