@@ -7,6 +7,6 @@ const point = (x,y) => {
 }
 
 const emptyObject = () => {
-  let point = { 'x': , 'y':  }
+  let point = { 'x': (), 'y': () }
 
 } 
