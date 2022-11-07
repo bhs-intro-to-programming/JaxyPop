@@ -1,3 +1,3 @@
 const getX = (object) => {
-  return object/2
+  return object+10
 }
