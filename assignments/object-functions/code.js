@@ -9,3 +9,7 @@ const point = (x,y) => {
 const emptyObject = () => {
   return {}
 } 
+
+const distance = (x,y) => {
+  let point = { 'x': 10, 'y': 20 }
+}
