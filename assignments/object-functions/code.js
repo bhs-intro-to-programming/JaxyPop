@@ -1,3 +1,3 @@
 const getX = (object) => {
-  return   object = 0
+  return   object = point.x
 }
