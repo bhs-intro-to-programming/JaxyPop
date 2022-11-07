@@ -1,4 +1,4 @@
 const getX = (object) => {
-  return object=10
+  return  object = { 'x': 10 }
 
 }
