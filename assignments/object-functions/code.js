@@ -1,3 +1,3 @@
 const getX = (object) => {
-  return   object = { 'x': 10, 'y': 20 }
+  return   object = 0
 }
