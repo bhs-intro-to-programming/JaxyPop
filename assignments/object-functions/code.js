@@ -1,4 +1,4 @@
 const getX = (x) => {
-  return   x='x': 10 }
+  return   x ='x': 10 }
 
 }
