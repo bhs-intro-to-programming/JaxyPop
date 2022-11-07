@@ -1,2 +1,3 @@
 const getX = (object) => {
-  return   object = x
+  return   object.x
+}
