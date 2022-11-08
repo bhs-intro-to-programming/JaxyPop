@@ -11,5 +11,9 @@ const emptyObject = () => {
 } 
 
 const distance = (x,y) => {
-  let point = { 'x': 10, 'y': 20 }
+  return Math.sqrt({})
+}
+
+const midpoint =  (s1,s2) => {
+  return 
 }
