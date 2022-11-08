@@ -14,6 +14,6 @@ const distance = (x,y) => {
   return Math.sqrt({})
 }
 
-const midpoint =  (s1,s2) => {
-  return ((s1+s2 , x1+ x2 ))
+const midpoint =  (p1,p2) => {
+  return point ((p1.x +p2.x /2) , p1.y + p2.y /2 )
 }
