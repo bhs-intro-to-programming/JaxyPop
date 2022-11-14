@@ -13,15 +13,19 @@ const higherPaid = (e1, e2) => {
 
 const isSamePoint = (p1, p2) => {
   if  (p1.x === p2.x) + (p1.y === p2.y)  ;{
-    return true
+    return true 
   }
 };
 
 const totalWithTip = (bill, tipPercentage) => {
-  return 
+  return (subtotal )
 };
 
-const isWinner = (player) => {
+const isWinner = (object) => {
+  if (object=100) === true
+  if (object<100) === false
+  return isWinner(object = 100) === true
+  
 };
 
 const updateWins = (players) => {
