@@ -6,7 +6,7 @@ const area = (rect) => {
 };
 
 const higherPaid = (e1, e2) => {
-  if(e1.salary - e2.salary) > (e2.salary - e1.salary)
+  if(e1.salary - e2.salary) '>' (e2.salary - e1.salary)
   return e1.salary + e2.salary
   
 };
