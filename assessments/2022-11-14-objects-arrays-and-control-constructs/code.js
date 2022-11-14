@@ -22,8 +22,8 @@ const totalWithTip = (bill, tipPercentage) => {
 };
 
 const isWinner = (object) => {
-  if (object=100) === true
-  if (object<100) === false
+  if (object=100)  true
+  if (object<100)  false
   return isWinner(object = 100) === true
   
 };
