@@ -12,7 +12,9 @@ const itemsLeftOver = (numPeople,numItmes) => {
   return (numPeople % numItmes)
 }
 
-const areaOfCircle = (r) => Math.PI(r)**2;
+const areaOfCircle = (r) => {
+  return Math.PI(r)**2;
+}
 
 const volumeOfCube = (lengthEdge) => lengthEdge**3;
 
