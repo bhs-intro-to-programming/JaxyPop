@@ -35,3 +35,7 @@ const payWithOvertime = (hourlyRate, overtime, overtimeRate) => {
   return regular * hourlyRate + overtime * overtimeRate;
 };
 
+const firstClassPostage = () => {
+  return
+}
+
