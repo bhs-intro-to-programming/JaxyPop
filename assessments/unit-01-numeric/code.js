@@ -20,7 +20,7 @@ const volumeOfCube = (lengthEdge) => {
   return lengthEdge**3;
 }
 const populationGrowth =(currentSize,growthRate) => {
-  return (currentSize *(growthRate + 1));
+  return (currentSize * growthRate);
 } 
 
 const earnedRunAverage = (earnedRuns, innings) => ((earnedRuns * innings)*9);
