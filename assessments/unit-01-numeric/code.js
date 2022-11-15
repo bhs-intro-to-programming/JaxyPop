@@ -31,7 +31,7 @@ const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGol
 }
 const payWithOvertime = (hourlyRate, overtime, overtimeRate) => {
   const regular = Math.min(hours,8)
-  const overtime =overtime = hours - regular 
+  const overtime = hours - regular 
   return regular * hourlyRate + overtime * overtimeRate;
 };
 
