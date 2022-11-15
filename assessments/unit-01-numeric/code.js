@@ -19,7 +19,9 @@ const areaOfCircle = (r) => {
 const volumeOfCube = (lengthEdge) => {
   return lengthEdge**3;
 }
-const populationGrowth =(currentSize,growthRate) => (currentSize *(growthRate + 1));
+const populationGrowth =(currentSize,growthRate) => {
+  return (currentSize *(growthRate + 1));
+} 
 
 const earnedRunAverage = (earnedRuns, innings) => ((earnedRuns * innings)*9);
 
