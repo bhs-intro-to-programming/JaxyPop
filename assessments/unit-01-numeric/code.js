@@ -29,7 +29,7 @@ const earnedRunAverage = (earnedRuns, innings) => {
 const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => {
   return (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
 }
-const payWithOvertime = (hourlyRate, overtime, overtimeRate) => {
+const payWithOvertime = (hours, hourlyRate, overtimeRate) => {
   const regular = Math.min(hours, 8);
   const overtime = hours - regular;
   return regular * hourlyRate + overtime * overtimeRate;
