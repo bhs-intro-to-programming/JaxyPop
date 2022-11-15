@@ -9,7 +9,7 @@ const G = 6.6743e-11;
 // credit for a clear and simple working function.
 
 const itemsLeftOver = (numPeople,numItmes) => {
-  return numPeople % numItmes
+  return (numPeople % numItmes)
 }
 
 const areaOfCircle = (r) => Math.PI(r)**2;
