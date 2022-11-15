@@ -8,7 +8,9 @@ const G = 6.6743e-11;
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
 
-const itemsLeftOver = (numberPeople, numberItmes) => numberPeople-numberItmes;
+const itemsLeftOver = (numPeople,numItmes) => {
+  return numPeople % numItmes
+}
 
 const areaOfCircle = (r) => Math.PI(r)**2;
 
@@ -30,6 +32,6 @@ const weightOnJupiter = (kiloOnEarth) => {
   return 
 };
 
-const gravity = (massesTwoBodies*2, distanceObjects) => { 
+const gravity = (massesTwoBodies*2, distanceObjects) =>{
   return
 };
