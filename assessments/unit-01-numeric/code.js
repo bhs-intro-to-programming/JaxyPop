@@ -26,8 +26,9 @@ const populationGrowth =(currentSize,growthRate) => {
 const earnedRunAverage = (earnedRuns, innings) => {
   return ((earnedRuns * innings)*9);
 }
-const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
-
+const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => {
+  return (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
+}
 const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a);  
 
 const firstClassPostage = (weightInOunces) => {
