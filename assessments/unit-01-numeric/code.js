@@ -29,13 +29,7 @@ const earnedRunAverage = (earnedRuns, innings) => {
 const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => {
   return (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
 }
-const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a);  
-
-const firstClassPostage = (weightInOunces) => {
-  return (weightInOunces) +60 + 24
-};
-
-const weightOnJupiter = (kiloOnEarth) => {
-  return 
+const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => {
+  return (8 * hoursWorked) + (normalRate -8) (overtimeRate * a);
 };
 
