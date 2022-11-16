@@ -8,28 +8,35 @@ const G = 6.6743e-11;
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
 
-const itemsLeftOver = (numberPeople, numberItmes) => numberPeople-numberItmes;
+const itemsLeftOver = (numPeople,numItmes) => {
+  return (numPeople % numItmes)
+}
 
-const areaOfCircle = (r) => Math.PI(r)**2;
+const areaOfCircle = (r) => {
+  return Math.PI(r)**2;
+}
 
-const volumeOfCube = (lengthEdge) => lengthEdge**3;
+const volumeOfCube = (lengthEdge) => {
+  return lengthEdge**3;
+}
+const populationGrowth =(currentSize,growthRate) => {
+  return (currentSize * growthRate);
+} 
 
-const populationGrowth =(currentSize,growthRate) => (currentSize *(growthRate + 1));
-
-const earnedRunAverage = (earnedRuns, innings) => ((earnedRuns * innings)*9);
-
-const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
-
-const payWithOvertime = (hoursWorked, normalRate, overtimeRate) => (8 * hoursWorked) + (normalRate -8) (overtimeRate * a);  
-
-const firstClassPostage = (weightInOunces) => {
-  return (weightInOunces) +60 + 24
+const earnedRunAverage = (earnedRuns, innings) => {
+  return ((earnedRuns * innings)*9);
+}
+const valueOfJewels = (numberDiamond, numberEmerald, diamondInGold, emeraldInGold) => {
+  return (numberDiamond * diamondInGold) + (numberEmerald * emeraldInGold);
+}
+const payWithOvertime = (hours, hourlyRate, overtimeRate) => {
+  const regular = Math.min(hours, 8);
+  const overtime = hours - regular;
+  return regular * hourlyRate + overtime * overtimeRate;
 };
 
-const weightOnJupiter = (kiloOnEarth) => {
-  return 
-};
 
-const gravity = (massesTwoBodies*2, distanceObjects) => { 
-  return
-};
+const firstClassPostage = (weightOunces) => {
+  return 60 + Math.ceil (weigthOunces) * 24
+}
+
