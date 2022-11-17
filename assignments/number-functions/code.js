@@ -13,3 +13,6 @@ const divide = (x,y) => {
 const mod = (x,y) => {
   return (x%y)
 }
+const avrageOfTwo = (x,y) => {
+  return (x+y)/2
+}
