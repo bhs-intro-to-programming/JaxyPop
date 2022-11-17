@@ -16,6 +16,6 @@ const mod = (x,y) => {
 const averageOfTwo = (x,y) => {
   return ((x+y)/2)
 }
-const averageOfThree = (x,y) => {
-  return ((x+y)/3)
+const averageOfThree = (x,y,z) => {
+  return ((x+y+z)/3)
 }
