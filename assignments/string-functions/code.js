@@ -53,3 +53,8 @@ const lastThree = (s) =>{
 const simplePigLatin = (s) => {
   return s.substring(s.search(/[aeiou]/))+s.substring(0,s.search-1)+'ay'
 }
+
+const upDown = (s) => {
+  return s.substring(.toUpperCase) + 
+}
+
