@@ -58,3 +58,7 @@ const upDown = (s) => {
   return  s.toUpperCase() + s.toLowerCase()
 }
 
+const sameIgnoringCase = (a,b) => {
+  return a===b
+}
+
