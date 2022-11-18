@@ -55,6 +55,6 @@ const simplePigLatin = (s) => {
 }
 
 const upDown = (s) => {
-  return s.substring .toUpperCase + s.toLowerCase
+  return s.substring (.toUpperCase) + s.toLowerCase
 }
 
