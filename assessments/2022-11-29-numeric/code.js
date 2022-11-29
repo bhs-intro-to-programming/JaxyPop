@@ -44,5 +44,10 @@ const wrapingCombos = (wp,r,b) => {
 }
 
 const biggestNumber = (digits) => {
-  return
+  if (digits < 99)
+  return true;
+  else{
+
+   (digits > 99 )
+   }
 }
