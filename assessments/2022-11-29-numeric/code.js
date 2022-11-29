@@ -14,7 +14,11 @@ const leftOut = (chocos,numPeople) => {
   if(chocos > numPeople) 
     return 0;
     else{
-      return (numPeople-chocos)
-    }
+      return (numPeople-chocos);
+    };
 
+};
+
+const probabilityAllHeads = (heads) => {
+  return .5 ** heads
 }
