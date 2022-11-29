@@ -10,4 +10,11 @@ const extraChocolates = (chocos,numPeople) => {
   return (chocos%numPeople)
 }
 
-const extraChocolates = 
+const leftOut = (chocos,numPeople) => {
+  if(chocos > numPeople) 
+    return 0;
+    else{
+      return (numPeople-chocos)
+    }
+
+}
