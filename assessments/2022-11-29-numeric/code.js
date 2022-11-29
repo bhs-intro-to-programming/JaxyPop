@@ -22,3 +22,27 @@ const leftOut = (chocos,numPeople) => {
 const probabilityAllHeads = (heads) => {
   return .5 ** heads
 }
+
+const futureHour = (curHr,posNum) => {
+  if(curHr + posNum)
+  return ; 
+  else{
+    return (posNum - curHr)
+  }
+}
+
+const presentsBudget = (friends,price) => {
+  return friends * price 
+}
+
+const perPresent = (money,numPres) => {
+  return money/numPres
+}
+
+const wrapingCombos = (wp,r,b) => {
+  return (wp*r*b)
+}
+
+const biggestNumber = (digits) => {
+  return
+}
