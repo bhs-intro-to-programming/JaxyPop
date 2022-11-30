@@ -1,3 +1,3 @@
 const findFnord = (s) => {
-  return s.indexOf-1
+  return s.indexOf('fnord')
 }
