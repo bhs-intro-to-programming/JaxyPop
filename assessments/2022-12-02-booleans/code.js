@@ -7,11 +7,16 @@ const needSunscreen = (beach,skiing) => {
 }
 
 const needMittens = (outside,warm) => {
-  return outside && !warm
+  return outside || !warm
 }
 
 const isVenomous = (striped,blueHead) => {
-  return striped || !blueHead
+  if (striped && blueHead){
+    return true
+  }
+  if (!striped && blueHead){
+    return false
+  }
 }
 
 const okaySpeed = (pSpeed,sCar) => {
