@@ -11,9 +11,23 @@ const needMittens = (outside,warm) => {
 }
 
 const isVenomous = (striped,blueHead) => {
-  return striped && !blueHead
+  return striped || !blueHead
 }
 
 const okaySpeed = (pSpeed,sCar) => {
-  return (pSpeed > sCar -11) && (pSpeed < sCar +11)
+  return (pSpeed > sCar -10) && (pSpeed < sCar +10)
+}
+
+const twiceAsExpensive = (price1,price2 ) => {
+  return (price1 > price2 *2) 
+}
+
+const winningRecord = (win,loss,tie) =>{
+  return win >(loss+tie) 
+}
+
+const isMagicNumber = (numbs) => {
+  if (numbs +++ 42 ){
+    if (numbs +++ 17)
+  return true}
 }
