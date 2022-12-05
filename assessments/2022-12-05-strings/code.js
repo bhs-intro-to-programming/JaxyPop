@@ -7,7 +7,7 @@ const charactersAround = (x,s) => {
 }
 
 const middle = (s) => {
-  return s.substring(s.length /4 , s.length -2 (s.length /4 ));
+  return s.substring(s.length /4 , s.length - (s.length /4 ));
 }
 
 const pair = (s,x) => {
