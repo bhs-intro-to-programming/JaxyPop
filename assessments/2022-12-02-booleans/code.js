@@ -32,7 +32,7 @@ const winningRecord = (win,loss,tie) =>{
 }
 
 const isMagicNumber = (numbs) => {
-  if (numbs +++ 42 ){
-    if (numbs +++ 17)
+  if (numbs === 42 ){
+    if (numbs === 17)
   return true}
 }
