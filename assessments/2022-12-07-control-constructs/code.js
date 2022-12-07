@@ -80,6 +80,14 @@ const pair = (a, b) => {
 // Write your code here ...
 const logIfOk = (s) => {
   if (isOk(s)) {
-    return log(s)
+    log(s)
   }
+}
+
+const firstOk = (s) => {
+  
+}
+
+const timeToLeet = (s) => {
+  for (let s = 0 ; isLeet(s));
 }
