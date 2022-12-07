@@ -90,11 +90,16 @@ const firstOk = (s) => {
 
 const timeToLeet = (s) => {
   for ((let)=isLeet === (s) , s >= 100000){
-    return isLeet='even' 
+    return isLeet= true 
   }
 }
-const classify = () => {
-  
+const classify = (s) => {
+  if(isOk(s)){
+    return recordOk(s)
+  }
+  else {
+    return recordNotOk(s)
+  } 
 }
 
 const threewayClassify = () => {
