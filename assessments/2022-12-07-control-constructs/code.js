@@ -85,9 +85,25 @@ const logIfOk = (s) => {
 }
 
 const firstOk = (s) => {
-  
+  if (isOk === (s), s = 0 < 100 );
 }
 
 const timeToLeet = (s) => {
-  for (let s = 0 ; isLeet(s));
+  
+}
+
+const classify = () => {
+  
+}
+
+const threewayClassify = () => {
+  
+}
+
+const sumOfSquares = (s) => {
+  
+}
+
+const pairs = () => {
+  
 }
