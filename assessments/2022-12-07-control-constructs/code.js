@@ -90,7 +90,7 @@ const firstOk = (s) => {
 
 const timeToLeet = (s) => {
   for ((let)=isLeet === (s) , s >= 100000){
-    return isLeet = 0 
+    return isLeet='even' 
   }
 }
 const classify = () => {
