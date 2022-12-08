@@ -8,5 +8,6 @@
   "20",
   "4",
   "The sum of the numbers from 0 to 9",
-  "When Math.random() returns a number less that 0.01"
+  "When Math.random() returns a number less that 0.01",
+  "It tests whether there are more than limit prime numbers below max."
 ]
