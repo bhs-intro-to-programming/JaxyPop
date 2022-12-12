@@ -13,3 +13,6 @@ const makeMove = (x , y , o) => {
   return makeMove
 }
 
+const placeMark = (board,move) => {
+  return 
+}
