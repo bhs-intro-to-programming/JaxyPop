@@ -1,5 +1,1 @@
-const makeRow = [
-  makeRow,
-  makeRow,
-  makeRow
-]
+const makeRow = ['','','']
