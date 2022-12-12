@@ -9,4 +9,6 @@ const makeBoard = () => {
 ]
 }
 const makeMove = (x , y , o) => {
-  let move = ('mark' = x , 'row' = y , 'column' = o )
+  let makeMove = {'mark' : x , 'row' : y , 'column' : o }
+  return makeMove
+}
