@@ -13,4 +13,3 @@ const makeMove = (x , y , o) => {
   return makeMove
 }
 
-const 
