@@ -22,7 +22,7 @@ const secondHalf = (s) => {
 }
 
 const isAllUpperCase = () => {
-  return 
+  return s.substring(s.toUpperCase(0,1000))
 }
 
 const firstAndLast = () => {
