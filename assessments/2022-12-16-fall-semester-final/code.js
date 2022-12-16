@@ -172,3 +172,7 @@ const willSeeTweet = (ft,fsrt,bt) => {
 const placeMark = (board, move ) => {
   return board [move.row] , [move. coloumn] = move.mark;
 }
+
+const isSamePoint = (point1,point2) => {
+  return (point1.x = point2.x) && (point1.y = point2.y) 
+  }
