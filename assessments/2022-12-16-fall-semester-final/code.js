@@ -157,7 +157,10 @@ const firstOk = (x) => {
 
 const timeToLeet = () => {
   if ( count = 0) 
-  let (isLeet && random10k());{
-  }return count ++ 
+  let (!isLeet && random10k());{
+  return count ++ }
 }
 
+const recordMove = () => {
+  return
+}
