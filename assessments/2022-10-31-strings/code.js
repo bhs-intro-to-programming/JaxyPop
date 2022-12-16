@@ -16,3 +16,19 @@ const rand = (n) => Math.floor(Math.random() * n);
 const firstHalf = (s) => {
   return s.substring(1,0)+s.substring(s.length/2)
 }
+
+const secondHalf (s) => {
+  return s.substring
+}
+
+const isAllUpperCase = () => {
+  return 
+}
+
+const firstAndLast = () => {
+  return
+}
+
+const upDown = () => {
+  return
+}
