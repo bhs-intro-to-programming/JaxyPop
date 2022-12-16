@@ -185,7 +185,7 @@ const canGoToProm = (senior, invited, list) => {
 const extractColumn = (board,column) => {
   let column = [];
   for(let i =0 ; i < board.length; i ++){
-    column(board[r],[c]);
+    column(board[r][c]);
   }
   return col;
 }
