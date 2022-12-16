@@ -190,5 +190,5 @@ const extractColumn = (board,column) => {
 }
 
 const simplePigLatin = () => {
-  return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)
+  return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)+'aeiou'
 }
