@@ -96,3 +96,35 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const firstHalf = (s) => {
+  return s.substring(1,0)+s.substring(s.length/2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length/2)
+}
+
+const isAllUpperCase = () => {
+  return s.substring(s.toUpperCase(0,1000))
+}
+
+const upDown = (s) => {
+  return s.substring(toUpperCase(0,2))+s.substring(s.length*2)
+}
+
+const makeRow = () => {
+  ['','','']
+}
+
+const makeBoard = () => {
+  makeRow,
+  makeRow,
+  makeRow;
+}
+
+// this is where i start the test 
+
+
+
+
