@@ -1,3 +1,3 @@
-const makeRow = () = {
+const makeRow = () => {
   ['','','']
 }
