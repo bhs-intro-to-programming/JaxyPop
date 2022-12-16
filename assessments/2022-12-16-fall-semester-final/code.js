@@ -138,3 +138,13 @@ const isVenomous = (striped,blueHead) => {
     return false}
     else true
 }
+
+const canSleepIn = (weekday,vacation) => {
+  if (!vacation && weekday){
+    return flase}
+    else true
+}
+  
+const fireAlarm = (pulled,smoke,drill) => {
+  return (pulled||smoke||drill)
+}
