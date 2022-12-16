@@ -180,3 +180,11 @@ const isSamePoint = (point1,point2) => {
 const canGoToProm = (senior, invited, list) => {
   return (senior || invited && !list)
 }
+
+const extractColumn = (board,column) => {
+  let column = []
+  for(let i =0 ; i < board.length; i ++){
+    column(board[r] [c]);
+  }
+  return col;
+}
