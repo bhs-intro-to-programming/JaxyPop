@@ -18,7 +18,7 @@ const firstHalf = (s) => {
 }
 
 const secondHalf (s) => {
-  return s.substring
+  return s.substring(s.length/2)
 }
 
 const isAllUpperCase = () => {
