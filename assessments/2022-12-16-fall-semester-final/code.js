@@ -156,6 +156,7 @@ const firstOk = (x) => {
 }
 
 const timeToLeet = () => {
-  let(random10k())
-  return isLeet
+  if ( count = 0) 
+  let (isLeet(random10k()))
+  
 }
