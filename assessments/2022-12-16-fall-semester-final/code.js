@@ -127,6 +127,10 @@ const makeMove = (x , y , o) => {
   let makeMove = {'mark' : x , 'row' : y , 'column' : o }
   return makeMove
 }
+
+const placeMark = (board, move ) => {
+  return board [move.row] , [move. coloumn] = move.mark;
+}
 // this is where i start the test 
 
 const extraChocolates = (chocos,people) => {
@@ -169,10 +173,6 @@ const willSeeTweet = (ft,fsrt,bt) => {
   return (ft||fsrt||!bt)
 }
 
-const placeMark = (board, move ) => {
-  return board [move.row] , [move. coloumn] = move.mark;
-}
-
 const isSamePoint = (point1,point2) => {
   return (point1.x = point2.x) && (point1.y = point2.y) 
 }
@@ -187,4 +187,8 @@ const extractColumn = (board,column) => {
     column(board[r] [c]);
   }
   return col;
+}
+
+const simplePigLatin = () => {
+  return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)
 }
