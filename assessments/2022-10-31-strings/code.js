@@ -17,7 +17,7 @@ const firstHalf = (s) => {
   return s.substring(1,0)+s.substring(s.length/2)
 }
 
-const secondHalf (s) => {
+const secondHalf = (s) => {
   return s.substring(s.length/2)
 }
 
