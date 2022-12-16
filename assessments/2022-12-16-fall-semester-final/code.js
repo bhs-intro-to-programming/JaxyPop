@@ -160,11 +160,12 @@ const firstOk = (x) => {
 }
 
 const timeToLeet = () => {
-  let (count = 0) 
-  while (!isLeet && random10k());{
-  count ++ }
-}
-
+  let count = 0;
+  while (!isLeet(random10k())) {
+    count++;
+  }
+  return count;
+};
 const recordMove = () => {
   
 }
@@ -192,3 +193,4 @@ const extractColumn = (board,column) => {
 const simplePigLatin = () => {
   return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)+'aeiou'
 }
+
