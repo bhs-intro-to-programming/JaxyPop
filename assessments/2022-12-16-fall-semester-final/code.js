@@ -123,8 +123,14 @@ const makeBoard = () => {
   makeRow;
 }
 
+const makeMove = (x , y , o) => {
+  let makeMove = {'mark' : x , 'row' : y , 'column' : o }
+  return makeMove
+}
 // this is where i start the test 
 
-
+const extraChocolates = () => {
+  return 
+}
 
 
