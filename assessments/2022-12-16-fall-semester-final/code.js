@@ -183,8 +183,7 @@ const canGoToProm = (senior, invited, list) => {
 }
 
 const extractColumn = (board,column) => {
-  let column = []{
-  }
+  let column = [];
   for(let i =0 ; i < board.length; i ++){
     column(board[r][c]);
   }
@@ -195,3 +194,6 @@ const simplePigLatin = () => {
   return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)+'aeiou'
 }
 
+const randomCharacter = () => {
+  return s(rand(s.length))
+}
