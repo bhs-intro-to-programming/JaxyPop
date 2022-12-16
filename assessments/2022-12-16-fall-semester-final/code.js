@@ -137,5 +137,4 @@ const isVenomous = (striped,blueHead) => {
   if(!striped && blueHead ){
     return false}
     else true
-  
 }
