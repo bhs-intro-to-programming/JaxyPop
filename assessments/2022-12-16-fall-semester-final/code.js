@@ -154,3 +154,8 @@ const firstOk = (x) => {
   if(isOk(i))
   return firstOk
 }
+
+const timeToLeet = () => {
+  let(random10k())
+  return isLeet
+}
