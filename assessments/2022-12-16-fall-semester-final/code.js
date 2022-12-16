@@ -155,8 +155,9 @@ const firstOk = (x) => {
   return firstOk
 }
 
-const timeToLeet = () => {
+const timeToLeet = (x) => {
   if ( count = 0) 
   let (isLeet && random10k());
-  count ++
+  count ++ x
 }
+
