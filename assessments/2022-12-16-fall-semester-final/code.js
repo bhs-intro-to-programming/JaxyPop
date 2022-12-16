@@ -157,10 +157,18 @@ const firstOk = (x) => {
 
 const timeToLeet = () => {
   if ( count = 0) 
-  let (!isLeet && random10k());{
+  let(!isLeet && random10k());{
   return count ++ }
 }
 
 const recordMove = () => {
-  return
+  
+}
+
+const willSeeTweet = (ft,fsrt,bt) => {
+  return (ft||fsrt||!bt)
+}
+
+const placeMark = (board, move ) => {
+  return board [move.row] , [move. coloumn] = move.mark;
 }
