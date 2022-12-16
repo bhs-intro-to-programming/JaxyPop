@@ -29,6 +29,6 @@ const firstAndLast = () => {
   return
 }
 
-const upDown = () => {
-  return
+const upDown = (s) => {
+  return s.substring(toUpperCase(0,2))+s.substring(s.length*2)
 }
