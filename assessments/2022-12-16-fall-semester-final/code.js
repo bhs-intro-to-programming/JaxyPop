@@ -106,7 +106,7 @@ const secondHalf = (s) => {
 }
 
 const isAllUpperCase = () => {
-  return s.substring(s.toUpperCase(0,1000))
+  return s.toUpperCase() ===s
 }
 
 const upDown = (s) => {
@@ -129,8 +129,13 @@ const makeMove = (x , y , o) => {
 }
 // this is where i start the test 
 
-const extraChocolates = () => {
-  return 
+const extraChocolates = (chocos,people) => {
+  return Math.floor (chocos/people)
 }
 
-
+const isVenomous = (striped,blueHead) => {
+  if(!striped && blueHead ){
+    return false}
+    else true
+  
+}
