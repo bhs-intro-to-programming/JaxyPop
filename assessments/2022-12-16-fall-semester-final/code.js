@@ -148,3 +148,9 @@ const canSleepIn = (weekday,vacation) => {
 const fireAlarm = (pulled,smoke,drill) => {
   return (pulled||smoke||drill)
 }
+
+const firstOk = (x) => {
+  for (let i===0; i < x; i++)
+  if(isOk(i))
+  return true
+}
