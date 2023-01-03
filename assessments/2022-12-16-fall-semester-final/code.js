@@ -96,3 +96,104 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const firstHalf = (s) => {
+  return s.substring(1,0)+s.substring(s.length/2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length/2)
+}
+
+const isAllUpperCase = () => {
+  return s.toUpperCase() ===s
+}
+
+const upDown = (s) => {
+  return s.substring(toUpperCase(0,2))+s.substring(s.length*2)
+}
+
+const makeRow = () => {
+  ['','','']
+}
+
+const makeBoard = () => {
+  makeRow,
+  makeRow,
+  makeRow;
+}
+
+const makeMove = (x , y , o) => {
+  let makeMove = {'mark' : x , 'row' : y , 'column' : o }
+  return makeMove
+}
+
+const placeMark = (board, move ) => {
+  return board [move.row] , [move. coloumn] = move.mark;
+}
+// this is where i start the test 
+
+const extraChocolates = (chocos,people) => {
+  return Math.floor (chocos/people)
+}
+
+const isVenomous = (striped,blueHead) => {
+  if(!striped && blueHead ){
+    return false}
+    else true
+}
+
+const canSleepIn = (weekday,vacation) => {
+  if (!vacation && weekday){
+    return flase}
+    else true
+}
+  
+const fireAlarm = (pulled,smoke,drill) => {
+  return (pulled||smoke||drill)
+}
+
+const firstOk = (x) => {
+  for (let i =0; i < x; i++);
+  if(isOk(i))
+  return firstOk
+}
+
+const timeToLeet = () => {
+  let count = 0;
+  while (!isLeet(random10k())) {
+    count++;
+  }
+  return count;
+};
+const recordMove = () => {
+  
+}
+
+const willSeeTweet = (ft,fsrt,bt) => {
+  return (ft||fsrt||!bt)
+}
+
+const isSamePoint = (point1,point2) => {
+  return (point1.x = point2.x) && (point1.y = point2.y) 
+}
+
+const canGoToProm = (senior, invited, list) => {
+  return (senior || invited && !list)
+}
+
+const extractColumn = (board,column) => {
+  let column = [];
+  for(let i =0 ; i < board.length; i ++){
+    column(board[r][c]);
+  }
+  return col;
+}
+
+const simplePigLatin = () => {
+  return s.substring(s.search(/['aeiou']/))+s.substring(0,s.search -1)+'aeiou'
+}
+
+const randomCharacter = () => {
+  return s(rand(s.length))
+}
