@@ -1,0 +1,61 @@
+#!/bin/bash
+
+set -euo pipefail
+
+root="https://intro.gigamonkeys.com/starter-kits"
+
+function usage {
+    echo "To create a new project, run this script with two arguments, the name of the project "
+    echo "and the name of the starter kit you want to use. For example:"
+    echo ""
+    echo "  $0 my-first-web-project trivial-web"
+    echo ""
+    echo "To list the available kits:"
+    echo ""
+    echo "  $0 --list"
+    exit 1
+}
+
+if (($# < 1)); then usage; fi
+
+if (($# == 1)) && [ "$1" == "--list" ]; then
+    curl "$root/kits.txt"
+    exit 0
+fi
+
+
+if (($# < 2)); then usage; fi
+
+if [ "$(git branch --show-current)" != "main" ]; then
+    echo "Must start projects from main branch."
+    exit 1
+fi
+
+name="$1"
+kit="$2"
+proj="projects/$name"
+
+if [ -e "$proj" ]; then
+    echo "Project directory $proj already exists!"
+    exit 1
+fi
+
+if git show-ref --verify --quiet "refs/heads/$proj"; then
+    echo "Project branch $proj already exists!"
+    exit 1
+fi
+
+# Make the project branch
+git switch -c "$proj"
+
+# Make the project directory
+mkdir -p "$proj"
+
+# Download the starter code
+cd "$proj"
+tmp=$(mktemp)
+curl --fail "$root/$kit.tgz" > "$tmp"
+tar xzf "$tmp"
+
+# Install the libraries
+npm install
